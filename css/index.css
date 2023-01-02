@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --tipo-letra:"Nunito", Helvetica, Arial, sans-serif;
+    --verde-claro:#0bf96a;
+    --verde-escuro:#049A40;
+    --rosa-claro:#f3a9fd;
+    --rosa-escuro:#e10bf9;
+    --branco:#fff;
+    --preto:#000;
+}
+
+body{
+    background-color: var(--branco);
+    font-family: var(--tipo-letra);
+}
+
+a{
+    text-decoration: none;
+    color: var(--preto);
+}
+
+ul{
+    list-style: none;
+}
+
+p{
+    line-height: 21.82px;
+    padding: 0 10px;
+}
+
+.sessao-titulo{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    
+}
+
+/* header */
+.menu-bg{
+    background-color: var(--verde-claro);
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    padding: .5rem 2rem;
+}
+
+.nav-lista{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-link{
+    padding:1rem;
+}
+/* ~fim header */
+
+/* intro */
+.intro{
+    font-size: 3rem;
+    text-align: center;
+    margin: 30px 0px;
+    font-weight: bold;
+}
+
+hr{
+    border: none;
+    background-color: var(--rosa-escuro);
+    height: 2px;
+    width: 140px;
+    margin: 30px auto;
+}
+/* ~fim de intro */
+
+/* Somos */
+.somos{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.somos-corpo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.somos-texto{
+    flex: 6 1 160px;
+}
+
+.somos-imagem{
+    flex: 1 1 350px;
+}
+
+/* ~fim somos */
+/* cursos */
+
+.curso-corpo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.curso{
+    width: 280px;
+    margin: 0 20px;
+}
+
+.curso-titulo{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 10px 0 5xp 0;
+}
+
+.curso-descricao{
+    text-align: center;
+}
+
+/* planos */
+
+.planos{
+    background-color: var(--rosa-claro);
+    padding: 1.5rem 0;
+}
+
+.planos-corpo {
+    display:flex;
+    justify-content: center;
+    width: 969px;
+    margin: 0 auto;
+}
+
+.plano{
+    width: 280px;
+    margin: 10px;
+    border: 2px solid var(--verde-claro);
+    padding: 1rem;
+}
+
+.plano-titulo{
+    margin:10px auto;
+    text-align: center;
+    font-size: 1.5rem;
+}
